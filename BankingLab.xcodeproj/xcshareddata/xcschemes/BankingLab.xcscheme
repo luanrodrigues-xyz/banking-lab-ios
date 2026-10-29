@@ -51,6 +51,17 @@
                ReferencedContainer = "container:BankingLab.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4912DCCF085E5CD9CAB51558"
+               BuildableName = "BankingLabUITests.xctest"
+               BlueprintName = "BankingLabUITests"
+               ReferencedContainer = "container:BankingLab.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <CommandLineArguments>
       </CommandLineArguments>

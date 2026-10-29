@@ -53,6 +53,18 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.luanrodrigues.bankinglab.tests
         GENERATE_INFOPLIST_FILE: YES
         IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+  BankingLabUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - BankingLabUITests
+    dependencies:
+      - target: BankingLab
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.luanrodrigues.bankinglab.uitests
+        GENERATE_INFOPLIST_FILE: YES
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
 schemes:
   BankingLab:
     build:
@@ -62,3 +74,4 @@ schemes:
       gatherCoverageData: true
       targets:
         - BankingLabTests
+        - BankingLabUITests
