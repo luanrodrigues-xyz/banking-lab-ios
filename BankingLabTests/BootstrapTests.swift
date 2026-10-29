@@ -12,12 +12,12 @@ final class BootstrapTests: XCTestCase {
 
     @MainActor
     func testLaunchScreenLoadsWithoutStoryboard() {
-        let controller = LaunchViewController()
+        let controller = AccountViewController(balance: MonetaryAmount(cents: 250_000), currencyCode: "BRL", locale: Locale(identifier: "pt_BR"))
         let navigation = UINavigationController(rootViewController: controller)
 
         controller.loadViewIfNeeded()
 
-        XCTAssertEqual(controller.title, "BankingLab")
+        XCTAssertEqual(controller.title, "Conta")
         XCTAssertNil(controller.storyboard)
         XCTAssertNil(controller.nibName)
         XCTAssertTrue(navigation.viewControllers.first === controller)
