@@ -14,6 +14,8 @@
 		4A481C38C05465EC3016E823 /* StatementTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC893C912DC26CFC97B97E74 /* StatementTransaction.swift */; };
 		4D4FD874F47941F5FA24A94E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182C80CEA4FF3B3F0BB12F93 /* AppDelegate.swift */; };
 		4E3F4F6E70E6CE0C49933D8B /* StatementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9858D83C8C1224D2B3307217 /* StatementService.swift */; };
+		5976CDAACD4305DCEF27BCA3 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BDC983DD777FD9AD096F3 /* PrimaryButton.swift */; };
+		61482B80208FD7CF9CC7B2A2 /* StatementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04455EAAD55A9A945524D9F6 /* StatementView.swift */; };
 		7AD8EFB2F1EE52CF140F5E0F /* StatementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9A04CA36168F452B3D567 /* StatementViewModel.swift */; };
 		915CAAAC179537E2CAFB912C /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B2B1903968502E1C921019 /* HTTPClient.swift */; };
 		95C4E8EA13A0025DEC9A5F09 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278111C9BB60DA5A3EC3A513 /* LaunchViewController.swift */; };
@@ -23,6 +25,8 @@
 		AB87E85BFD220BE1B8C01C39 /* StatementTransactionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF2C93A8918BFB6298E24A /* StatementTransactionTests.swift */; };
 		B6FB5A5AEBF67ED7444DD688 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5335B503D3AE2ABF4C2FFF /* SceneDelegate.swift */; };
 		B9DC8ACDCAA97F58BB019028 /* StatementRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48122D412CE1A01859C0E3 /* StatementRepository.swift */; };
+		E763A4BD658F6B9B6E55C9FA /* StatementViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229910428E1A4E43AE5533F /* StatementViewTests.swift */; };
+		E8A2D4EC9DE02850D7D27E27 /* StatementTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA48DFA500B6597369276C5 /* StatementTransactionCell.swift */; };
 		E91D1DFA06BFD82AAA20A0D0 /* StatementViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4D0194939571B3D5EEF2EF /* StatementViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04455EAAD55A9A945524D9F6 /* StatementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementView.swift; sourceTree = "<group>"; };
 		0D2F61D1AE6D0F2DDA63F873 /* StatementPageDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementPageDTO.swift; sourceTree = "<group>"; };
 		0D48122D412CE1A01859C0E3 /* StatementRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementRepository.swift; sourceTree = "<group>"; };
 		16E8D4EFEA9ED4BF1F9B0F56 /* BootstrapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootstrapTests.swift; sourceTree = "<group>"; };
@@ -51,8 +56,11 @@
 		87BF122BB8BC89E201C3AD93 /* StatementServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementServiceTests.swift; sourceTree = "<group>"; };
 		93B2B1903968502E1C921019 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		9858D83C8C1224D2B3307217 /* StatementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementService.swift; sourceTree = "<group>"; };
+		AEA48DFA500B6597369276C5 /* StatementTransactionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementTransactionCell.swift; sourceTree = "<group>"; };
 		B6EF2C93A8918BFB6298E24A /* StatementTransactionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementTransactionTests.swift; sourceTree = "<group>"; };
+		B95BDC983DD777FD9AD096F3 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		BC893C912DC26CFC97B97E74 /* StatementTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementTransaction.swift; sourceTree = "<group>"; };
+		C229910428E1A4E43AE5533F /* StatementViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewTests.swift; sourceTree = "<group>"; };
 		C7151289AB3269E41AACB923 /* BankingLab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BankingLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DCC2796B15615752C3CBB1 /* StatementRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementRepositoryTests.swift; sourceTree = "<group>"; };
 		DF4D0194939571B3D5EEF2EF /* StatementViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementViewModelTests.swift; sourceTree = "<group>"; };
@@ -84,6 +92,7 @@
 				6886A47735A944A710F59840 /* Info.plist */,
 				0D62ED99D3C4D29E3A131293 /* App */,
 				5FB5EF43C902CF817BBB4CCA /* Core */,
+				AF3549A6C63C15BC1ED2D6A7 /* DesignSystem */,
 				9FF6C658A998196AB2432A8C /* Features */,
 			);
 			path = BankingLab;
@@ -131,6 +140,7 @@
 				4C683B13D4487ECE935C6D9D /* Repositories */,
 				BD10C2E762DBB803D0E86CF5 /* Services */,
 				18D888C3CEFEE6664867BEEA /* ViewModels */,
+				9E8035A04121D3CB47E7299D /* Views */,
 			);
 			path = Statements;
 			sourceTree = "<group>";
@@ -144,12 +154,29 @@
 			);
 			sourceTree = "<group>";
 		};
+		9E8035A04121D3CB47E7299D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEA48DFA500B6597369276C5 /* StatementTransactionCell.swift */,
+				04455EAAD55A9A945524D9F6 /* StatementView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9FF6C658A998196AB2432A8C /* Features */ = {
 			isa = PBXGroup;
 			children = (
 				76245639F8040621B49899BC /* Statements */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		AF3549A6C63C15BC1ED2D6A7 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B95BDC983DD777FD9AD096F3 /* PrimaryButton.swift */,
+			);
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 		BD10C2E762DBB803D0E86CF5 /* Services */ = {
@@ -178,6 +205,7 @@
 				87BF122BB8BC89E201C3AD93 /* StatementServiceTests.swift */,
 				B6EF2C93A8918BFB6298E24A /* StatementTransactionTests.swift */,
 				DF4D0194939571B3D5EEF2EF /* StatementViewModelTests.swift */,
+				C229910428E1A4E43AE5533F /* StatementViewTests.swift */,
 			);
 			path = BankingLabTests;
 			sourceTree = "<group>";
@@ -266,12 +294,15 @@
 				915CAAAC179537E2CAFB912C /* HTTPClient.swift in Sources */,
 				95C4E8EA13A0025DEC9A5F09 /* LaunchViewController.swift in Sources */,
 				9F157210B3152D6A4B416962 /* MonetaryAmount.swift in Sources */,
+				5976CDAACD4305DCEF27BCA3 /* PrimaryButton.swift in Sources */,
 				B6FB5A5AEBF67ED7444DD688 /* SceneDelegate.swift in Sources */,
 				305EDC557D6C246D11C9B80C /* StatementPage.swift in Sources */,
 				A52944FEBA8F00EE1654FFA2 /* StatementPageDTO.swift in Sources */,
 				B9DC8ACDCAA97F58BB019028 /* StatementRepository.swift in Sources */,
 				4E3F4F6E70E6CE0C49933D8B /* StatementService.swift in Sources */,
 				4A481C38C05465EC3016E823 /* StatementTransaction.swift in Sources */,
+				E8A2D4EC9DE02850D7D27E27 /* StatementTransactionCell.swift in Sources */,
+				61482B80208FD7CF9CC7B2A2 /* StatementView.swift in Sources */,
 				7AD8EFB2F1EE52CF140F5E0F /* StatementViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +317,7 @@
 				00BB3C3B5B15B6A3C4DA4F8E /* StatementServiceTests.swift in Sources */,
 				AB87E85BFD220BE1B8C01C39 /* StatementTransactionTests.swift in Sources */,
 				E91D1DFA06BFD82AAA20A0D0 /* StatementViewModelTests.swift in Sources */,
+				E763A4BD658F6B9B6E55C9FA /* StatementViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
